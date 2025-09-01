@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 1412181142494940120}
   - component: {fileID: 1412181142494940121}
   - component: {fileID: 1412181142494940122}
-  - component: {fileID: 3109194630105265294}
   m_Layer: 0
   m_Name: Hanging Cliff Spire
   m_TagString: NoClimbOrLedgeClimb
@@ -612,6 +611,7 @@ MonoBehaviour:
     m_AreaError: 15
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
+  m_Mesh: {fileID: 0}
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -630,16 +630,3 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!114 &3109194630105265294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1412181142494940116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af42aa91cfab80548b3e25902d7a90ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sound: Sand
